@@ -75,7 +75,7 @@ img{
     .content{
         font-size: 18px;
         font-weight: 700;
-        width: 180%;
+        width: 160%;
     }
     .base{
         margin: 50px;
@@ -90,8 +90,9 @@ img{
     .aboutme{
         margin-top: 40px;
         width: 290%;
+        font-size: 10px;
     }
     .butt{
-        margin-left: 30%;
+        margin-left: 20%;
     }
 }
