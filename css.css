@@ -75,21 +75,21 @@ img{
     .content{
         font-size: 18px;
         font-weight: 700;
-        width: 160%;
+        width: 190%;
     }
     .base{
-        margin: 50px;
+        margin: 50px 25px;
     }
     img{
         width: 80px;
     }
     .photo{
-        margin-left: 110px;
+        margin-left: 100px;
         margin-top: -30px;
     }
     .aboutme{
         margin-top: 40px;
-        width: 290%;
+        width: 260%;
         font-size: 10px;
     }
     .butt{
