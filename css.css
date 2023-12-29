@@ -475,7 +475,7 @@ body{
 .phone2{
     position: absolute;
     top: 300px;
-    right: -480px;
+    right: 0px;
     transition: 1.5s;
 }
 .right7:hover{
@@ -497,10 +497,12 @@ body{
     margin-left: 8px;
 }
 .footer-menu1{
+    display: flex;
     margin-top: 24px;
     gap: 24px;
 }
-.footer-menu2{
+.footer-menu2, .footer-menu3{
+    display: flex;
     margin-top: 12px;
     gap: 24px;
 }
@@ -551,6 +553,9 @@ body{
 @media screen and (max-width: 390px){
     body{
         width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .header{
         margin: 10px 20px;
@@ -564,7 +569,7 @@ body{
     }
     .phone-menu{
         display: block;
-        padding-left: 185px;
+        padding-left: 170px;
         font-weight: 900;
         font-size: 20px;
     }
@@ -591,13 +596,14 @@ body{
         margin-bottom: 10px;
     }
     .part1{
-        top: 200px;
-        left: -10px;
+        top: 750px;
+        left: -40px;
         transform: rotate(-20deg);
     }
     .part2{
         top: 240px;
         right: 0px;
+        display: none;
     }
     .border{
         display: grid;
@@ -610,6 +616,7 @@ body{
     }
     .section3{
         margin: 48px 20px;
+        padding-bottom: 0px;
     }
     .tailor{
         font-size: 36px;
@@ -622,5 +629,127 @@ body{
         margin-top: 48px;
         display: flex;
         flex-direction: column;
+    }
+    .main-text{
+        font-size: 24px;    
+    }
+    .text3{
+        font-size: 18px;
+        width: 303px;
+    }
+    .story{
+        padding: 80px 20px 0px 20px;
+    }
+    .story-main{
+        font-size: 30px;
+    }
+    .boxes{
+        margin: 32px 20px;
+    }
+    .story-box2{
+        width: 270px;
+        top: 220px;
+        right: 20px;
+    }
+    .story-box2-text, .story-box1-text{
+        font-size: 19px;
+        width: 239px;
+    }
+    .story-box1{
+        margin-top: 396px;
+        margin-bottom: 230px;
+    }
+    .story-box3{
+        right: 20px;
+        top: 1070px;
+    }
+    .section5{
+        margin: 48px 20px;
+        flex-direction: column;
+    }
+    .achive{
+        font-size: 30px;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        margin-top: 48px;
+    }
+    .box-achive{
+        margin-left: 0px;
+    }
+    .section6{
+        margin: 40px 20px;
+        flex-direction: column;
+    }
+    .left6{
+        margin: 20px 0px;
+    }
+    .left6-main{
+        font-size: 30px;
+        width: 335px;
+    }
+    .left6-text{
+        font-size: 17px;
+    }
+    .semi-circle{
+        width: 320px;
+        height: 160px;
+        border-radius:0 0 320px 320px;
+        border-top: 5px solid #EDE9FE;
+        border-left: 5px solid #EDE9FE;
+        border-right: 5px solid #EDE9FE;
+        background-color: #EDE9FE;
+        position: relative;
+        z-index: 3;
+        align-self: center;
+    }
+    .right6{
+        margin-left: 0px;
+    }
+    .circle{
+        img{
+            width: 40px;
+        }
+        margin-left: 39px;
+    }
+    .right6-top{
+        top: 25px;
+        right: 29px;
+    }
+    .right6-bot{
+        top: 100px;
+        left: 29px;
+    }
+    .square-for-phone{
+        display: none;
+    }
+    .left7{
+        padding: 48px 20px 700px 20px;
+    }
+    .main7{
+        font-size: 30px;
+    }
+    .text7{
+        font-size: 17px;
+    }
+    .section7{
+        flex-direction: column;
+    }
+    .phone1{
+        top: -568px;
+        left: 50px;
+    }
+    .phone2{
+        top: -330px;
+        left: 53px;
+    }
+    .footer{
+        padding: 40px 20px;
+        flex-direction: column
+    }
+    .footer-right{
+        margin-left: 0px;
+        margin-top: 32px;
     }
 }
