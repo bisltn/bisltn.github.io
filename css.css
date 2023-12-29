@@ -556,7 +556,6 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0px -10px;
     }
     .header{
         margin: 10px 20px;
@@ -570,7 +569,7 @@ body{
     }
     .phone-menu{
         display: block;
-        padding-left: 55%;
+        padding-left: 48%;
         font-weight: 900;
         font-size: 20px;
     }
@@ -595,6 +594,7 @@ body{
     .photo-iphone{
         align-self: center;
         margin-bottom: 10px;
+        margin: 150px 0px 72px 0px;
     }
     .part1{
         top: 750px;
