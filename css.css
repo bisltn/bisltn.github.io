@@ -475,6 +475,7 @@ body{
 .phone2{
     position: absolute;
     top: 300px;
+    left: 230px;
     right: 0px;
     transition: 1.5s;
 }
@@ -550,7 +551,7 @@ body{
     display:none;
     line-height: 8px;
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 425px){
     body{
         width: 375px;
         display: flex;
@@ -569,7 +570,7 @@ body{
     }
     .phone-menu{
         display: block;
-        padding-left: 170px;
+        padding-left: 55%;
         font-weight: 900;
         font-size: 20px;
     }
@@ -589,7 +590,7 @@ body{
         justify-content: center;
     }
     .box2, .box1{
-        width: 450px;
+        width: 350px;
     }
     .photo-iphone{
         align-self: center;
