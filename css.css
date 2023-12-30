@@ -270,10 +270,13 @@ body{
 }
 .boxes{
     display: flex;
-    margin: 60px 21%;
+    margin-bottom: 450px;
 }
 .story-box1{
+    position: absolute;
     background-color: #fff;
+    left: 320px;
+    bottom: 13%;
     padding: 32px;
     max-width: 350px;
     box-shadow: 0px 2px 4px -2px
@@ -303,7 +306,7 @@ body{
 .story-box2{
     background-color: #fff;
     position: absolute;
-    right: 320px;
+    left: 710px;
     top: 235px;
     padding: 32px;
     box-shadow: 0px 2px 4px -2px
@@ -311,7 +314,7 @@ body{
 .story-box3{
     background-color: #fff;
     position: absolute;
-    right: 442px;
+    left: 710px;
     top: 540px;
     padding: 32px;
     box-shadow: 0px 2px 4px -2px
@@ -646,32 +649,32 @@ body{
     }
     .boxes{
         margin: 32px 8%;
+        flex-direction: column;
     }
     .story-box2{
-        width: 270px;
-        top: 220px;
-        right: 8%;
+        position: relative;
     }
     .story-box2-text, .story-box1-text{
         font-size: 19px;
-        width: 239px;
+        max-width: 239px;
     }
     .story-box1{
-        margin-top: 396px;
-        margin-bottom: 230px;
-    }
-    .story-box3{
-        right: 8%;
-        top: 1070px;
-    }
-    .story-box2, .story-box3{
-        right: 7%;
-    }
-    .story-box1{
+        position: relative;
+        left: 0px;
         margin-left: 0%;
     }
+    .story-box3{
+        position: relative;
+    }
+    .story-box2, .story-box3{
+        max-width: 375px;
+        margin: 20px 0px;
+        left: 0px;
+        top: 0px;
+
+    }
     .section5{
-        margin: 48px 20px;
+        margin: 48px 8%;
         flex-direction: column;
     }
     .achive{
@@ -700,16 +703,14 @@ body{
         font-size: 17px;
     }
     .semi-circle{
-        width: 320px;
+        max-width: 280px;
         height: 160px;
-        border-radius:0 0 320px 320px;
+        border-radius:0 0 300px 300px;
         border-top: 5px solid #EDE9FE;
         border-left: 5px solid #EDE9FE;
         border-right: 5px solid #EDE9FE;
         background-color: #EDE9FE;
-        position: relative;
         z-index: 3;
-        align-self: center;
     }
     .right6{
         margin-left: 0px;
@@ -718,15 +719,17 @@ body{
         img{
             width: 40px;
         }
-        margin-left: 39px;
+        margin-left: 0px;
     }
     .right6-top{
-        top: 25px;
-        right: 8%;
+        position: static;
+        gap: 13%;
+        margin: 25px 5%;
     }
     .right6-bot{
-        top: 100px;
-        left: 8%;
+        position: static;
+        gap: 13%;
+        margin: 35px 20%;
     }
     .square-for-phone{
         display: none;
