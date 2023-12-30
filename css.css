@@ -551,14 +551,14 @@ body{
     display:none;
     line-height: 8px;
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 450px){
     body{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     .header{
-        margin: 10px 20px;
+        margin: 10px 8%;
     }
     .logo{
         width: 128px;
@@ -577,7 +577,7 @@ body{
         flex-direction: column;
     }
     .left-side{
-        margin: 45px 20px 20px 20px;
+        margin: 45px 8% 20px 8%;
     }
     .text-1{
         font-size: 36px;
@@ -608,7 +608,7 @@ body{
     }
     .border{
         display: grid;
-        margin: 24px 20px;
+        margin: 24px 8%;
         grid-template-columns: 110px 110px;
         grid-template-rows: 28px 28px 28px;
         column-gap: 64px;
@@ -616,7 +616,7 @@ body{
         align-items: center;
     }
     .section3{
-        margin: 48px 20px;
+        margin: 48px 8%;
         padding-bottom: 0px;
     }
     .tailor{
@@ -639,18 +639,18 @@ body{
         width: 303px;
     }
     .story{
-        padding: 80px 20px 0px 20px;
+        padding: 80px 8% 0px 8%;
     }
     .story-main{
         font-size: 30px;
     }
     .boxes{
-        margin: 32px 20px;
+        margin: 32px 8%;
     }
     .story-box2{
         width: 270px;
         top: 220px;
-        right: 20px;
+        right: 8%;
     }
     .story-box2-text, .story-box1-text{
         font-size: 19px;
@@ -661,8 +661,14 @@ body{
         margin-bottom: 230px;
     }
     .story-box3{
-        right: 20px;
+        right: 8%;
         top: 1070px;
+    }
+    .story-box2, .story-box3{
+        right: 7%;
+    }
+    .story-box1{
+        margin-left: 0%;
     }
     .section5{
         margin: 48px 20px;
@@ -680,11 +686,11 @@ body{
         margin-left: 0px;
     }
     .section6{
-        margin: 40px 20px;
+        margin: 40px 8%;
         flex-direction: column;
     }
     .left6{
-        margin: 20px 0px;
+        margin: 8% 0px;
     }
     .left6-main{
         font-size: 30px;
@@ -716,17 +722,17 @@ body{
     }
     .right6-top{
         top: 25px;
-        right: 29px;
+        right: 8%;
     }
     .right6-bot{
         top: 100px;
-        left: 29px;
+        left: 8%;
     }
     .square-for-phone{
         display: none;
     }
     .left7{
-        padding: 48px 20px 700px 20px;
+        padding: 48px 8% 700px 8%;
     }
     .main7{
         font-size: 30px;
@@ -737,16 +743,24 @@ body{
     .section7{
         flex-direction: column;
     }
+    .right7:hover{
+        .phone1{
+            transform: translateY(0px);
+        }
+        .phone2{
+            transform: translateY(0px);
+        }
+    }
     .phone1{
         top: -568px;
-        left: 50px;
+        left: 15%;
     }
     .phone2{
         top: -330px;
-        left: 53px;
+        left: 16%;
     }
     .footer{
-        padding: 40px 20px;
+        padding: 40px 8%;
         flex-direction: column
     }
     .footer-right{
