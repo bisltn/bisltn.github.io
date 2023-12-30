@@ -697,7 +697,7 @@ body{
     }
     .left6-main{
         font-size: 30px;
-        width: 335px;
+        max-width: 335px;
     }
     .left6-text{
         font-size: 17px;
@@ -769,5 +769,8 @@ body{
     .footer-right{
         margin-left: 0px;
         margin-top: 32px;
+    }
+    .footer-menu2{
+        gap: 4%;
     }
 }
